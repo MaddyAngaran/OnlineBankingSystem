@@ -28,6 +28,9 @@ class User:
         self.save_accounts()
         print(self.accounts[account_number])
         return account
+    
+    def get_userId(self):
+      return self.userId
 
     def get_account_info(self):
         account_info = []
